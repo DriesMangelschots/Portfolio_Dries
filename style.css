@@ -16,10 +16,11 @@
        border: 0; 
 } 
 /* Navbar X */
-.nav-link:hover {
-     color: #90BCBB;
- }
 
+.underscore:hover {
+    color: #489C9C !important;
+    text-decoration: underline;
+}
 .toggler-icon{
     width: 30px;
     height: 3px;
