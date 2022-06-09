@@ -2,10 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
+
 /* Styling Navbar + Hamburger Menu  */
 .navbar-toggler{
     border: 0;
@@ -61,6 +64,35 @@
 .navbar-toggler.collapsed .toggler-icon {
     background-color: #484E4E;
 }
+
+/* hero background image */
+.bgimage {
+    height: 100vh;
+    background: url('images/DriesMangelschots.jpg')no-repeat center center fixed;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/* text css above hero image*/
+.hero_para {
+    font-size: 2.5rem;
+    font-family: 'Spline Sans Mono', monospace;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F7F3F0;
+}
+
+
 /* Titles */
 .title {
     font-family: 'Quicksand', sans-serif;
@@ -99,6 +131,30 @@ img{
 }
 
 /* Portfolio */
+.pointer {
+    cursor: pointer;
+}
+.overlay {
+    position: absolute;
+    opacity: 0;
+    margin: auto;
+    padding: 10px;
+    transition: opacity 0.5s ease-in-out;
+    background: black;
+    cursor: pointer;
+
+}
+.image-group .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-family: 'Spline Sans Mono', monospace;
+    
+}
+
 .image-group{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -147,6 +203,20 @@ img{
     transform: perspective(500px);
     transform-style: preserve-3d;
 }
+/* Wpf page */
+.breadcrumb {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+}
+.breadcrumb-item a {
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+
+/*  */
 /* .card_skill{
     position: relative;
     width: 150px;
