@@ -161,6 +161,16 @@ img{
     grid-gap: 1.5rem;
 }
 /* Skills */
+.zoom {
+    transition: .2s;
+    
+}
+.zoom:hover {
+    transform: scale(1.1);
+  
+    
+}
+
 .hard-skills {
     font-family: 'Dosis', sans-serif;;
 }
