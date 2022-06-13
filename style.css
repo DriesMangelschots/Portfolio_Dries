@@ -134,13 +134,14 @@ img{
 .pointer {
     cursor: pointer;
 }
-.overlay {
+.image-group.overlay {
     position: absolute;
-    opacity: 0;
-    margin: auto;
-    padding: 10px;
-    transition: opacity 0.5s ease-in-out;
-    background: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
     cursor: pointer;
 
 }
@@ -323,8 +324,16 @@ img{
   ;
 }
 
+/* Contact */
 
+.mail {
+    text-decoration: none;
+    color: #000000;
 
+}
+.mail:hover {
+    color: #489C9C;
+}
 
 /* Footer */
 
