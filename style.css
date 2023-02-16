@@ -67,8 +67,8 @@
 
 /* hero background image */
 .bgimage {
-    height: 100vh;
-    background: url('images/DriesMangelschots.jpg')no-repeat center center fixed;
+    min-height: 100vh;
+    background: url('images/Dries.JPG')no-repeat;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -133,6 +133,16 @@ img{
 /* Portfolio */
 .pointer {
     cursor: pointer;
+}
+.portfolio {
+    transition: transform 0.25s;
+}
+.portfolio:hover {
+    transform: scale(1.02);
+}
+#mobile {
+    width: 50vh;
+
 }
 .image-group.overlay {
     position: absolute;
