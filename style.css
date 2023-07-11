@@ -130,6 +130,20 @@ img{
     color: #f7F3F0;
 }
 
+/* felix */
+
+.kat img {
+    max-width: 25%; /* Ensures the image doesn't exceed its parent container */
+    height: auto; /* Maintains the aspect ratio of the image */
+  }
+
+  /* Additional styles for mobile devices */
+  @media (max-width: 768px) {
+    .kat img {
+      max-width: 50%; /* Adjust the value as needed */
+    }
+  }
+
 /* Portfolio */
 .pointer {
     cursor: pointer;
